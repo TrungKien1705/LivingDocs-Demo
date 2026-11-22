@@ -1,6 +1,6 @@
 """Module xử lý logic tính giá và khuyến mãi cho đơn hàng."""
 
-DEFAULT_TAX_RATE = 0.09  # Thuế VAT mặc định 10%
+DEFAULT_TAX_RATE = 0.08  # Thuế VAT mặc định 10%
 
 
 def calculate_discount(subtotal: float, coupon_code: str | None = None) -> float:
